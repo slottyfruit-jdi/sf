@@ -710,8 +710,8 @@ body{
     function runSpinAnimation() {
       const acak = Math.random();
       let hasilAkhir = [];
-      let pPerfect = isEventActive ? 0.05 : 0.02; 
-      let pAlmost = isEventActive ? 0.15 : 0.09;  
+      let pPerfect = isEventActive ? 0.10 : 0.05; 
+      let pAlmost = isEventActive ? 0.15 : 0.10;  
       if (acak < pPerfect) { 
         const s = symbols[Math.floor(Math.random() * symbols.length)];
         hasilAkhir = [s, s, s];
